@@ -1,0 +1,25 @@
+body:before {
+	content:"";
+	position:fixed;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	z-index:-1; 
+	background:#D8D8D8;
+    background: linear-gradient(to bottom, #04d9c3 24%, #8372f2 100%);
+
+}
+
+body{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    position: center;
+    margin-bottom: 60px;
+
+}
+
+ul {
+    color: black;
+}
