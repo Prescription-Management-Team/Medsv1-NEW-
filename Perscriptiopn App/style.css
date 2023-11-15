@@ -21,6 +21,7 @@ body{
     overflow-y: hidden; /* Hide vertical scrollbar */
     overflow-x: hidden; /* Hide horizontal scrollbar */
 
+
 }
 
 ul {
@@ -136,6 +137,7 @@ ul {
     float: left;
     width: 25%;
     padding: 0 10px;
+    
 }
   
   /* Remove extra left and right margins, due to padding in columns */
@@ -154,6 +156,7 @@ ul {
     padding: 16px;
     text-align: center;
     background-color: #9cdfd1;
+
 }
   
   /* Responsive columns - one column layout (vertical) on small screens */
@@ -162,5 +165,10 @@ ul {
       width: 100%;
       display: block;
       margin-bottom: 20px;
+
     }
+}
+
+#p1{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"
 }
