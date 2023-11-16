@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Meduscript</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: white;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" style="color: black; font-size: xx-large;;">Meduscript</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav" style="color: black; font-size: large;">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page"   style="color: #9c5df5; font-size: x-large; padding: 20px; font-weight: bold; text-decoration-line: underline;">Prescriptions </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Home.html" style="color: black; font-size: x-large; padding: 20px;">Back</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="text-center" style="font-size: 20px; padding: 190px 0;">
+    <!--Main conetent -->
+    <img src="images/image-removebg-preview (1).png">
+        <h1>Here are your curent prescriptions!</h1>
+        <p>View bottom of page to edit/manage your prescriptions</p>
+        <table class="table">
+  <thead>
+    <!--Table for prescription data-->
+    <tr style="font-size: larger; font-weight: bolder; border-bottom: solid; border-color: black;">
+      <th scope="col"></th>
+      <th  scope="col">Type (Name)</th>
+      <th scope="col">Dosage </th>
+      <th scope="col">Amount to take per day </th>
+      <th scope="col">Days until prescription can be ordered </th>
+    </tr>
+  </thead>
+  <tbody style="font-weight: 100; ">
+      <th scope="row">1</th>
+      <td>paracetamol</td>
+      <td>120 grams </td>
+      <td>No more than 1 gram per 6 hours</td>
+      <td style="color: red;"> 2 days</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>constipation relief</td>
+      <td>500 grams</td>
+      <td>50 grams per day</td>
+      <td style="color: red;"> 5 days</td>
+    </tr>
+    <tr>
+        <th scope="row">3</th>
+        <td>Ibuprofen</td>
+        <td>500 grams</td>
+        <td>1 grams per day</td>
+        <td> 15 days</td>
+    </tr>
+    <tr>
+        <th scope="row">4</th>
+        <td>Aveeno Cream</td>
+        <td>5 bottles per order</td>
+        <td>Approx 1 bottle per 2 weeks</td>
+        <td> 90 days</td>
+    </tr>
+    <tr>
+        <th scope="row">4</th>
+        <td>antihistamines </td>
+        <td>500 grams</td>
+        <td>1 gram per day</td>
+        <td> 30 days</td>
+    </tr>
+  </tbody>
+</table>
+        <a class="btn btn-primary" href="#" role="button" style="background-color: darkcyan; color: white;">EDIT</a>
+        <a class="btn btn-primary" href="#" role="button" style="background-color: darkslateblue; color: white;">UPDATE</a>
+        <a class="btn btn-primary" href="#" role="button" style="background-color: darkslategrey; color: white;">ORDER</a>
+
+ 
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2023 - MedAPP - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+   
+ 
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
