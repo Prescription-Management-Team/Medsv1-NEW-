@@ -22,10 +22,10 @@
             <a class="nav-link" aria-current="page" href="index.html" style="color: black; font-size: large;">Back</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#" style="color: black; font-size: large;">Log In</a>
+            <a class="nav-link" aria-current="page" href="Login.html" style="color: black; font-size: large;">Log In</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" style="color: black;">Register</a>
+            <a class="nav-link" href="Register.html" style="color: black;">Register</a>
           </li>
         </ul>
       </div>
@@ -33,7 +33,18 @@
   </nav>
   <div class="text-center" style="font-size: 20px; padding: 190px 0;">
     <!--Main conetent -->
-        <h1> THIS PAGE WILL HAVE A FORM USING JAVA TO SIGN UP WITH Facebook</h1>
+    <div id="error"></div>
+    <form id="form" action="Home.html" method="GET">
+      <div>
+        <label for="name" style="width: 50%;"></label>
+        <input id="name" style="width: 50%;" name="name" type="text" required placeholder="Dacebook Email">
+      </div>
+      <div>
+        <label for="password" style="width: 50%; "></label>
+        <input id="password" style="width: 50%;" name="password" type="password" required placeholder="Password">
+      </div>
+      <button type="submit" style="width: 40%; height: 40px; background-color: #9c5df5; color: white; bottom: 5%;">Submit</button>
+    </form>
     </div>
 
     <footer class="border-top footer text-muted">
